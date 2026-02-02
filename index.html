@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cookie Clicker Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="section-left">
+            <h1 id="cookie-count">0 cookies</h1>
+            <p id="cps-display">per second: 0</p>
+            <div id="cookie-container">
+                <img src="https://pngimg.com/uploads/cookie/cookie_PNG13656.png" id="cookie-btn" alt="Cookie">
+            </div>
+        </div>
+
+        <div class="section-right">
+            <h2>Shop</h2>
+            <button id="buy-cursor" class="upgrade-btn">
+                Buy Cursor (<span id="cursor-cost">15</span>)
+                <br><small>+1 click per second</small>
+            </button>
+            <button id="buy-grandma" class="upgrade-btn">
+                Buy Grandma (<span id="grandma-cost">100</span>)
+                <br><small>+5 clicks per second</small>
+            </button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
